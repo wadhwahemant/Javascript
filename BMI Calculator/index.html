@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>BMI Calculator | Health Tracker</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo">BMI<span>Lab.</span></div>
+    <div class="nav-text">YOUR HEALTH COMPANION</div>
+  </nav>
+
+  <main class="container">
+
+    <header class="heading">
+      <span class="tag">HEALTH & WELLNESS</span>
+
+      <h1>
+        Know your body.<br>
+        <span>Understand your BMI.</span>
+      </h1>
+
+      <p>
+        Calculate your Body Mass Index in seconds.
+        A simple step towards understanding your health.
+      </p>
+    </header>
+
+    <div class="calculator-layout">
+
+      <!-- Calculator -->
+      <section class="calculator-card">
+
+        <div class="card-header">
+          <h2>BMI Calculator</h2>
+          <p>Enter your measurements below</p>
+        </div>
+
+        <form id="bmi-form" novalidate>
+
+          <div class="input-group">
+            <label for="height">Your Height</label>
+
+            <div class="input-wrapper">
+              <input
+                type="number"
+                id="height"
+                placeholder="Enter height"
+                min="1"
+                step="any"
+                required
+              />
+              <span class="unit">cm</span>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="weight">Your Weight</label>
+
+            <div class="input-wrapper">
+              <input
+                type="number"
+                id="weight"
+                placeholder="Enter weight"
+                min="1"
+                step="any"
+                required
+              />
+              <span class="unit">kg</span>
+            </div>
+          </div>
+
+          <button type="submit" class="calculate-btn">
+            Calculate My BMI
+            <span>→</span>
+          </button>
+
+          <p id="error-message" role="alert"></p>
+
+        </form>
+
+        <!-- Result -->
+        <div id="results" class="results">
+
+          <p class="result-label">YOUR BODY MASS INDEX</p>
+
+          <div id="bmi-value" class="bmi-number"></div>
+
+          <div id="bmi-category" class="bmi-category"></div>
+
+          <p id="bmi-description" class="result-description"></p>
+
+        </div>
+
+      </section>
+
+      <!-- Weight Guide -->
+      <aside id="weight-guide" class="guide-card">
+
+        <div class="guide-header">
+          <span class="guide-icon">✦</span>
+          <h2>BMI Weight Guide</h2>
+          <p>Understand what your BMI means</p>
+        </div>
+
+        <div class="guide-item">
+          <div>
+            <span class="dot underweight"></span>
+            <strong>Underweight</strong>
+          </div>
+          <span>Below 18.5</span>
+        </div>
+
+        <div class="guide-item">
+          <div>
+            <span class="dot normal"></span>
+            <strong>Normal weight</strong>
+          </div>
+          <span>18.5 – 24.9</span>
+        </div>
+
+        <div class="guide-item">
+          <div>
+            <span class="dot overweight"></span>
+            <strong>Overweight</strong>
+          </div>
+          <span>25 – 29.9</span>
+        </div>
+
+        <div class="guide-item">
+          <div>
+            <span class="dot obese"></span>
+            <strong>Obesity</strong>
+          </div>
+          <span>30 or above</span>
+        </div>
+
+        <div class="guide-note">
+          <h3>Did you know?</h3>
+
+          <p>
+            BMI compares your weight with your height.
+            It's a useful screening tool, but it doesn't
+            directly measure body fat or overall health.
+          </p>
+        </div>
+
+      </aside>
+
+    </div>
+
+    <footer>
+      <p>
+        Made for better health awareness.
+        BMI categories shown are general adult screening ranges.
+      </p>
+    </footer>
+
+  </main>
+
+  <script src="bmiCalculator.js"></script>
+
+</body>
+</html>
