@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id ='heading'>AMAZON-India</h1>
+    <button id = 'stop'>Stop</button>
+</body>
+<script>
+    // setTimeout(function(){
+    //     console.log("Hello");
+    // },5000)
+    const timeoutReference = setTimeout(function(){
+        document.querySelector('#heading').innerHTML = "hi"
+        console.log('heading changed successfully');
+    },2000)
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(timeoutReference)
+        console.log('stop button pressed');
+        console.log('change in heading paused');
+    })
+    
+</script>
+</html>
