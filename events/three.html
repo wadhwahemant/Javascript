@@ -15,9 +15,7 @@
     const saydate =function(str){
                         console.log(str,Date.now())
                     }
-    document.querySelector('#start').addEventListener('click',function(){
-        intervalReference = setInterval(saydate,1000,'kasa kaye')
-    })
+    document.querySelector('#start').addEventListener 
     document.querySelector('#stop').addEventListener('click',function(){
         clearInterval(intervalReference);
         console.log("Stopped the interval successfully");
