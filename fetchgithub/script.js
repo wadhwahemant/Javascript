@@ -33,6 +33,5 @@ function display(data){
     const profileBio = document.querySelector('#profileBio')
     profileBio.innerHTML = data.bio
     const profileAvatar = document.querySelector('.avatar-placeholder')
-    const avatarImage =`https://avatars.githubusercontent.com/u/336616438?v=4`;
-    profileAvatar.innerHTML=`<img src=${avatarImage} alt = "myAvatar">`
+    profileAvatar.innerHTML=`<img src="${data.avatar_url}" alt = "myAvatar">`
 }
