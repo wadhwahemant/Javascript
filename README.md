@@ -1,8 +1,16 @@
 # ⚡ JavaScript — Learning & Projects
 
-\<p align="center">   \<b>Learn • Practice • Build • Improve\</b>   \<br>   A hands-on repository to strengthen my JavaScript fundamentals and build practical projects. \</p>
+### Learn • Practice • Build • Improve
 
-\<p align="center">   \<a href="[https://github.com/wadhwahemant/Javascript](https://github.com/wadhwahemant/Javascript)">     \<img src="[https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge\&logo=github)" alt="GitHub Repository">   \</a>   \<a href="[https://githubfetcher-hemantwadhwa.netlify.app](https://githubfetcher-hemantwadhwa.netlify.app)">     \<img src="[https://img.shields.io/badge/Live%20Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white](https://img.shields.io/badge/Live%20Demo-Netlify-00C7B7?style=for-the-badge\&logo=netlify\&logoColor=white)" alt="Live Demo">   \</a> \</p>
+A hands-on repository to strengthen my JavaScript fundamentals, explore core concepts, improve problem-solving skills, and build practical projects.
+
+<p align="center">
+
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/wadhwahemant/Javascript)
+[![GitHub Pages](https://img.shields.io/badge/Website-GitHub%20Pages-222222?style=for-the-badge&logo=github)](https://wadhwahemant.github.io/Javascript/)
+[![Netlify](https://img.shields.io/badge/Live%20Project-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://githubfetcher-hemantwadhwa.netlify.app)
+
+</p>
 
 ---
 
@@ -14,69 +22,71 @@ This repository is my personal space to revise JavaScript concepts, strengthen m
 
 Instead of just learning theory, I believe in understanding concepts by writing code and building projects.
 
-The goal is simple: **gain a strong understanding of JavaScript, one concept and one project at a time.**
+The goal is simple:
+
+**Gain a strong understanding of JavaScript, one concept and one project at a time.**
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Deployments
 
-I've started deploying my JavaScript projects so that they can be accessed and explored directly through a browser.
+I've started deploying my JavaScript projects so they can be accessed and explored directly through a browser.
 
 ### 🐙 GitHub Profile Fetcher
 
-A web application that allows users to search for GitHub usernames and dynamically fetch their profile information using the GitHub REST API.
+A web application that allows users to search for GitHub usernames and dynamically retrieve profile information using the GitHub REST API.
 
 **Features:**
-
 - Search GitHub users by username.
 - Fetch profile information dynamically.
-- Display profile avatar, name and bio.
-- Show public repositories, followers and following.
+- Display profile avatar, name, username, and bio.
+- Show public repositories, followers, and following.
 - Use Fetch API and Promises to handle asynchronous requests.
 - Handle unsuccessful API responses.
 
-\<p align="center">
-&#x20; \<a href="[https://githubfetcher-hemantwadhwa.netlify.app](https://githubfetcher-hemantwadhwa.netlify.app)">
-&#x20;   \<img src="[https://img.shields.io/badge/🚀%20Visit%20Live%20Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white](https://img.shields.io/badge/🚀%20Visit%20Live%20Project-00C7B7?style=for-the-badge\&logo=netlify\&logoColor=white)" alt="Visit GitHub Fetcher">
-&#x20; \</a>
-\</p>
+🚀 **[Explore GitHub Fetcher — Live on Netlify](https://githubfetcher-hemantwadhwa.netlify.app)**
+
+### 💻 JavaScript Repository Website
+
+Explore my JavaScript repository through its GitHub Pages deployment.
+
+🌐 **[Visit JavaScript Learning & Projects](https://wadhwahemant.github.io/Javascript/)**
 
 ---
 
 ## 📂 Repository Structure
 
-| Folder            | Description                                 |
-| ----------------- | ------------------------------------------- |
-| `01_basics`       | JavaScript fundamentals and basic concepts  |
-| `advance_one`     | Advanced JavaScript practice                |
-| `BMI Calculator`  | A BMI calculator built using JavaScript     |
-| `colorChanger`    | A simple color-changing project             |
-| `digital clock`   | Digital clock using JavaScript              |
-| `events`          | JavaScript event-handling practice          |
-| `fetchgithub`     | GitHub profile fetcher using the GitHub API |
-| `keyBoard`        | Keyboard event detection project            |
-| `unlimitedColors` | Unlimited color generator project           |
-| `.devcontainer`   | Development environment configuration       |
+| Folder | Description |
+|---|---|
+| `01_basics` | JavaScript fundamentals and basic concepts |
+| `advance_one` | Advanced JavaScript practice |
+| `BMI Calculator` | A BMI calculator built using JavaScript |
+| `colorChanger` | A simple color-changing project |
+| `digital clock` | Digital clock using JavaScript |
+| `events` | JavaScript event-handling practice |
+| `fetchgithub` | GitHub profile fetcher using the GitHub API |
+| `keyBoard` | Keyboard event detection project |
+| `unlimitedColors` | Unlimited color generator project |
+| `.devcontainer` | Development environment configuration |
 
 ---
 
 ## 🧠 Concepts I'm Exploring
 
-My learning journey covers:
+My JavaScript learning journey covers:
 
-- JavaScript Variables and Data Types
-- Operators and Conditional Statements
-- Loops and Functions
-- Arrays and Objects
-- Scope and Hoisting
-- DOM Manipulation
-- Events and Event Delegation
-- Higher-Order Functions
-- Array Methods
-- Promises and Asynchronous JavaScript
-- Fetch API and API Integration
-- Error Handling (`try...catch`)
-- Modern JavaScript (ES6+)
+- **Fundamentals:** Variables, Data Types, Operators, and Type Conversion.
+- **Control Flow:** Conditional Statements and Loops.
+- **Functions:** Function Declarations, Expressions, and Arrow Functions.
+- **Data Structures:** Arrays and Objects.
+- **JavaScript Internals:** Scope, Hoisting, and Execution Context.
+- **DOM Manipulation:** Selecting and dynamically updating HTML elements.
+- **Events:** Event Handling and Event Delegation.
+- **Functional JavaScript:** Higher-Order Functions and Array Methods.
+- **Asynchronous JavaScript:** Callbacks, Promises, and Async/Await.
+- **API Integration:** Fetch API, HTTP Requests, and JSON.
+- **Error Handling:** `try...catch`, Promise Rejection, and HTTP Errors.
+- **Modern JavaScript:** ES6+ Features.
 
 ---
 
@@ -84,28 +94,32 @@ My learning journey covers:
 
 Here are some of the projects I've built while learning JavaScript:
 
-| Project              | What It Does                                         |
-| -------------------- | ---------------------------------------------------- |
-| 🧮 BMI Calculator    | Calculates Body Mass Index                           |
-| 🎨 Color Changer     | Changes background colors dynamically                |
-| 🕒 Digital Clock     | Displays the current time                            |
-| ⌨️ Keyboard Detector | Detects keyboard key presses                         |
-| 🌈 Unlimited Colors  | Generates and applies random colors                  |
-| 🐙 GitHub Fetcher    | Fetches GitHub user profile information using an API |
+| Project | Description |
+|---|---|
+| 🧮 BMI Calculator | Calculates Body Mass Index |
+| 🎨 Color Changer | Changes background colors dynamically |
+| 🕒 Digital Clock | Displays the current time |
+| ⌨️ Keyboard Detector | Detects keyboard key presses |
+| 🌈 Unlimited Colors | Generates and applies random colors |
+| 🐙 GitHub Fetcher | Retrieves GitHub profile information using an API |
 
-More projects and experiments will be added as I progress.
+More projects, experiments, and implementations will be added as I progress.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5** — Structure
-- **CSS3** — Styling
-- **JavaScript (ES6+)** — Functionality and logic
-- **Fetch API** — Working with external APIs
-- **Git & GitHub** — Version control and project management
-- **Netlify** — Project deployment
-- **VS Code** — Development environment
+| Technology | Purpose |
+|---|---|
+| HTML5 | Webpage structure |
+| CSS3 | Styling and layouts |
+| JavaScript (ES6+) | Functionality and application logic |
+| Fetch API | External API integration |
+| Git | Version control |
+| GitHub | Code hosting and collaboration |
+| Netlify | Project deployment |
+| GitHub Pages | Website hosting |
+| VS Code | Development environment |
 
 ---
 
@@ -114,10 +128,11 @@ More projects and experiments will be added as I progress.
 - Build a strong foundation in JavaScript.
 - Understand how JavaScript works behind the scenes.
 - Improve logical thinking and problem-solving.
-- Learn asynchronous JavaScript and API integration.
+- Develop a deeper understanding of asynchronous JavaScript.
+- Learn API integration and dynamic data handling.
 - Build interactive and functional web applications.
 - Deploy projects and make them accessible online.
-- Prepare for learning modern frontend and full-stack technologies.
+- Prepare for modern frontend and full-stack development.
 
 ---
 
@@ -131,11 +146,16 @@ This repository will continue to evolve as I learn new concepts, experiment with
 
 ---
 
-\<p align="center">
-&#x20; \<b>Made with ❤️ by Hemant Wadhwa\</b>
-&#x20; \<br>
-&#x20; \<i>Learning JavaScript, one project at a time.\</i>
-&#x20; \<br>\<br>
-&#x20; \<a href="[https://github.com/wadhwahemant](https://github.com/wadhwahemant)">GitHub\</a> •
-&#x20; \<a href="[https://githubfetcher-hemantwadhwa.netlify.app](https://githubfetcher-hemantwadhwa.netlify.app)">Live Project\</a>
-\</p>
+## 🤝 Connect With Me
+
+I'm always interested in connecting with fellow developers, learning from the community, and collaborating on interesting projects.
+
+- **GitHub:** [@wadhwahemant](https://github.com/wadhwahemant)
+- **LinkedIn:** [Hemant Wadhwa](https://www.linkedin.com/in/hemant-wadhwa-5633b3429)
+- **Portfolio:** [Visit My Portfolio](https://hemantwadhwa-portfolio.vercel.app/)
+
+---
+
+### ❤️ Made with passion by Hemant Wadhwa
+
+*Learning JavaScript, one concept and one project at a time.*
