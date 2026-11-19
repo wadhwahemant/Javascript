@@ -1,4 +1,4 @@
-let initialString = `https://api.github.com/users/`
+const initialString = `https://api.github.com/users/`
 // const username = document.querySelector('username')
 const searchButton = document.querySelector('.search-button')
 searchButton.addEventListener('click',function(e){
@@ -34,4 +34,26 @@ function display(data){
     profileBio.innerHTML = data.bio
     const profileAvatar = document.querySelector('.avatar-placeholder')
     profileAvatar.innerHTML=`<img src="${data.avatar_url}" alt = "myAvatar">`
+    const repoPublic = document.querySelector('#repoCount')
+    repoPublic.innerHTML= data.public_repos
+    const followers = document.querySelector('#followersCount')
+    followers.innerHTML= data.followers
+    const following = document.querySelector('#followingCount')
+    following.innerHTML= data.following
 }
+function suggestionSearch(){
+const suggestions= document.querySelector('.suggestions')
+suggestions.addEventListener('click',function(e){
+    if(e.target.tagName === 'SPAN'){
+        console.log(e.target.textContent);
+    }
+    // let username = document.querySelector('#username')
+    let finalLink = initialString+(e.target.textContent.trim())
+    // username = e.target.textContent
+    // finalLink = initialString+username
+    // username.value=''
+    toFetchData(finalLink)
+
+})
+}
+suggestionSearch()
