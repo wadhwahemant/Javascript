@@ -1,10 +1,8 @@
 # ⚡ JavaScript — Learning & Projects
 
-\<p align="center">
-&#x20; \<b>Learn • Practice • Build • Improve\</b>
-&#x20; \<br>
-&#x20; A hands-on repository to strengthen my JavaScript fundamentals and build practical projects.
-\</p>
+\<p align="center">   \<b>Learn • Practice • Build • Improve\</b>   \<br>   A hands-on repository to strengthen my JavaScript fundamentals and build practical projects. \</p>
+
+\<p align="center">   \<a href="[https://github.com/wadhwahemant/Javascript](https://github.com/wadhwahemant/Javascript)">     \<img src="[https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge\&logo=github)" alt="GitHub Repository">   \</a>   \<a href="[https://githubfetcher-hemantwadhwa.netlify.app](https://githubfetcher-hemantwadhwa.netlify.app)">     \<img src="[https://img.shields.io/badge/Live%20Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white](https://img.shields.io/badge/Live%20Demo-Netlify-00C7B7?style=for-the-badge\&logo=netlify\&logoColor=white)" alt="Live Demo">   \</a> \</p>
 
 ---
 
@@ -17,6 +15,31 @@ This repository is my personal space to revise JavaScript concepts, strengthen m
 Instead of just learning theory, I believe in understanding concepts by writing code and building projects.
 
 The goal is simple: **gain a strong understanding of JavaScript, one concept and one project at a time.**
+
+---
+
+## 🌐 Live Demo
+
+I've started deploying my JavaScript projects so that they can be accessed and explored directly through a browser.
+
+### 🐙 GitHub Profile Fetcher
+
+A web application that allows users to search for GitHub usernames and dynamically fetch their profile information using the GitHub REST API.
+
+**Features:**
+
+- Search GitHub users by username.
+- Fetch profile information dynamically.
+- Display profile avatar, name and bio.
+- Show public repositories, followers and following.
+- Use Fetch API and Promises to handle asynchronous requests.
+- Handle unsuccessful API responses.
+
+\<p align="center">
+&#x20; \<a href="[https://githubfetcher-hemantwadhwa.netlify.app](https://githubfetcher-hemantwadhwa.netlify.app)">
+&#x20;   \<img src="[https://img.shields.io/badge/🚀%20Visit%20Live%20Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white](https://img.shields.io/badge/🚀%20Visit%20Live%20Project-00C7B7?style=for-the-badge\&logo=netlify\&logoColor=white)" alt="Visit GitHub Fetcher">
+&#x20; \</a>
+\</p>
 
 ---
 
@@ -79,7 +102,9 @@ More projects and experiments will be added as I progress.
 - **HTML5** — Structure
 - **CSS3** — Styling
 - **JavaScript (ES6+)** — Functionality and logic
+- **Fetch API** — Working with external APIs
 - **Git & GitHub** — Version control and project management
+- **Netlify** — Project deployment
 - **VS Code** — Development environment
 
 ---
@@ -91,6 +116,7 @@ More projects and experiments will be added as I progress.
 - Improve logical thinking and problem-solving.
 - Learn asynchronous JavaScript and API integration.
 - Build interactive and functional web applications.
+- Deploy projects and make them accessible online.
 - Prepare for learning modern frontend and full-stack technologies.
 
 ---
@@ -105,5 +131,11 @@ This repository will continue to evolve as I learn new concepts, experiment with
 
 ---
 
-Live Demo
-Github Fetcher - https://githubfetcher-hemantwadhwa.netlify.app
+\<p align="center">
+&#x20; \<b>Made with ❤️ by Hemant Wadhwa\</b>
+&#x20; \<br>
+&#x20; \<i>Learning JavaScript, one project at a time.\</i>
+&#x20; \<br>\<br>
+&#x20; \<a href="[https://github.com/wadhwahemant](https://github.com/wadhwahemant)">GitHub\</a> •
+&#x20; \<a href="[https://githubfetcher-hemantwadhwa.netlify.app](https://githubfetcher-hemantwadhwa.netlify.app)">Live Project\</a>
+\</p>
